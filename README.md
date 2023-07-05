@@ -1,5 +1,7 @@
 # Java SFTP with SSH key example
 
+[![Build](https://github.com/JamJaws/java-sftp-ssh/actions/workflows/build-gradle-project.yml/badge.svg)](https://github.com/JamJaws/java-sftp-ssh/actions/workflows/build-gradle-project.yml)
+
 ## Run the tests
 
 Will start up a SFTP server in a container using [testcontainers](https://testcontainers.com/) and connect to it with a
