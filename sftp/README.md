@@ -13,5 +13,9 @@ docker run --rm -it \
 Connect via cli:
 
 ```shell
-sftp -P 2222 -i ssh_client_ed25519 sftpuser@localhost
+sftp -P 2222 -i ssh/ssh_client_ed25519 sftpuser@localhost
 ```
+
+## Ed25519 / RSA
+
+To run the server with RSA instead of Ed25519 then replace `_ed25519` with `_rsa` the commands above.
